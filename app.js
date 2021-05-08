@@ -7,6 +7,7 @@ var session = require('express-session');
 var expressValidator = require('express-validator');
 var fileUpload = require('express-fileupload');
 var passport=require('passport');
+var open=require('open');
 
 //db connection
 

@@ -26,9 +26,5 @@ var ProductSchema = new mongoose.Schema({
     }
 });
 
-// var Page=mongoose.exports=mongoose.model('Pages',PageSchema);
-
 module.exports = mongoose.model('Product',ProductSchema);
 
-
-// console.log(module.exports)

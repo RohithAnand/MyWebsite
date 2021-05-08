@@ -12,8 +12,10 @@ router.get('/', function(req, res) {
                 title:page.title,
                 content:page.content
             });
+            
 
     });
+    
 });
 
 router.get('/:slug', function(req,res){
